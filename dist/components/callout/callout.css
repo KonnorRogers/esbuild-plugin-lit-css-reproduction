@@ -1,0 +1,9 @@
+/* src/components/callout/callout.css */
+:host {
+  display: block;
+}
+div {
+  background: red;
+  height: 200px;
+  width: 200px;
+}

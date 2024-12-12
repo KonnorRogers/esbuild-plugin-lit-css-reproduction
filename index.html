@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bug reproduction</title>
+  </head>
+  <body>
+    <my-callout></my-callout>
+
+    <br><br>
+    If the callout above is not a 200px by 200px box with a red background, go into the `esbuild.config.js`, remove the "replacer()" function and re-run the build.
+    <script type="module" src="/dist/components/callout/callout.js"></script>
+  </body>
+</html>

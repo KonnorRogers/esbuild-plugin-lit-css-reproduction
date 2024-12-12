@@ -1,0 +1,21 @@
+{
+  "name": "esbuild-plugin-lit-css-reproduction",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@konnorr/esbuild-plugin-lit-css": "^1.0.1",
+    "esbuild": "^0.19.12",
+    "esbuild-plugin-lit-css": "^3.0.1",
+    "esbuild-plugin-replace": "^1.4.0",
+    "lit": "^3.2.1",
+    "typescript": "^5.7.2"
+  }
+}
